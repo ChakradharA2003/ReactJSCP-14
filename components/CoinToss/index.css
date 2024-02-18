@@ -1,0 +1,59 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toss-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.heading {
+  color: #a35200;
+  font-weight: 500;
+  font-size: 35px;
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+.toss-image {
+  height: 180px;
+  width: 180px;
+}
+.toss-btn {
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
+}
+.list-count {
+  color: #475569;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 35px;
+}
